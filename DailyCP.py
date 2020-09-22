@@ -333,10 +333,10 @@ if __name__ == "__main__":
     #     exit()
     # app.autoComplete("中国安徽省合肥市蜀山区丹霞路", "./formdb")
 
-    # app = DailyCP("合肥工业大学")
-    # if not app.login("943", "146911."):
-    #     exit()
-    # app.autoComplete("中国安徽省合肥市蜀山区丹霞路", "./formdb")
+    app = DailyCP("合肥工业大学")
+    if not app.login("2017211919", "xtc123"):
+        exit()
+    app.autoComplete("中国安徽省合肥市蜀山区丹霞路", "./formdb")
 
 
     i=1
